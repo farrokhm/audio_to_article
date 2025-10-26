@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "audio_to_article"
+version = "0.1.0"
+description = ""
+authors = ["Farrokh Manzouri <farrokh.manzouri@gmail.com>"]
+readme = "README.md"
+packages = [{include = "audio_to_article", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.13"
+python-dotenv = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
